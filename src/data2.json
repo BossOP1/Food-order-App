@@ -1,0 +1,42 @@
+{
+    "restaurant": {
+      "id": 1,
+      "name": "Gourmet Delight",
+      "cuisine": "Fusion",
+      "location": "123 Gourmet St, Foodie City",
+      "rating": 4.7,
+      "menu": {
+        "breakfast": [
+          { "id": 101, "name": "Avocado Toast", "description": "Toasted bread topped with smashed avocado", "price": 6.99, "image": "avocado_toast.jpg" },
+          { "id": 102, "name": "Pancakes", "description": "Fluffy pancakes with maple syrup and butter", "price": 7.99, "image": "pancakes.jpg" },
+          { "id": 103, "name": "Breakfast Burrito", "description": "Scrambled eggs, cheese, and bacon in a tortilla", "price": 8.99, "image": "breakfast_burrito.jpg" },
+          { "id": 104, "name": "Omelette", "description": "Three-egg omelette with your choice of fillings", "price": 7.49, "image": "omelette.jpg" },
+          { "id": 105, "name": "French Toast", "description": "French toast with powdered sugar and syrup", "price": 6.99, "image": "french_toast.jpg" }
+        ],
+        "pizza": [
+          { "id": 201, "name": "Margherita Pizza", "description": "Classic pizza with tomato, mozzarella, and basil", "price": 12.99, "image": "margherita_pizza.jpg" },
+          { "id": 202, "name": "Pepperoni Pizza", "description": "Pizza with pepperoni and mozzarella cheese", "price": 14.99, "image": "pepperoni_pizza.jpg" },
+          { "id": 203, "name": "BBQ Chicken Pizza", "description": "Pizza with BBQ chicken, red onions, and cilantro", "price": 15.99, "image": "bbq_chicken_pizza.jpg" }
+        ],
+        "pasta": [
+          { "id": 301, "name": "Spaghetti Carbonara", "description": "Spaghetti with pancetta, eggs, and Parmesan", "price": 13.99, "image": "spaghetti_carbonara.jpg" },
+          { "id": 302, "name": "Fettuccine Alfredo", "description": "Fettuccine with creamy Alfredo sauce", "price": 12.99, "image": "fettuccine_alfredo.jpg" },
+          { "id": 303, "name": "Lasagna Bolognese", "description": "Lasagna with Bolognese sauce and bechamel", "price": 14.99, "image": "lasagna_bolognese.jpg" }
+        ],
+        "desserts": [
+          { "id": 401, "name": "Chocolate Cake", "description": "Rich chocolate cake with chocolate frosting", "price": 6.99, "image": "chocolate_cake.jpg" },
+          { "id": 402, "name": "Cheesecake", "description": "Classic cheesecake with a graham cracker crust", "price": 7.99, "image": "cheesecake.jpg" },
+          { "id": 403, "name": "Fruit Tart", "description": "Tart filled with pastry cream and topped with fresh fruit", "price": 8.99, "image": "fruit_tart.jpg" },
+          { "id": 404, "name": "Brownie Sundae", "description": "Warm brownie with ice cream and hot fudge", "price": 6.49, "image": "brownie_sundae.jpg" },
+          { "id": 405, "name": "Lemon Meringue Pie", "description": "Tart lemon filling with a fluffy meringue topping", "price": 7.49, "image": "lemon_meringue_pie.jpg" }
+        ],
+        "drinks": [
+          { "id": 501, "name": "Coke", "description": "Chilled can of Coke", "price": 1.99, "image": "coke.jpg" },
+          { "id": 502, "name": "Orange Juice", "description": "Freshly squeezed orange juice", "price": 3.99, "image": "orange_juice.jpg" },
+          { "id": 503, "name": "Latte", "description": "Hot latte with steamed milk", "price": 4.49, "image": "latte.jpg" },
+          { "id": 504, "name": "Iced Tea", "description": "Chilled iced tea with lemon", "price": 2.99, "image": "iced_tea.jpg" }
+        ]
+      }
+    }
+  }
+  

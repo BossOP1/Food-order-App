@@ -1,0 +1,39 @@
+{
+  "restaurant": {
+    "id": 1,
+    "name": "Gourmet Delight",
+    "cuisine": "Fusion",
+    "location": "123 Gourmet St, Foodie City",
+    "rating": 4.7,
+    "menu": {
+      "breakfast": [
+        { "id": 101, "name": "Avocado Toast", "description": "Toasted bread topped with smashed avocado", "price": 6.99, "image": "avocado_toast.jpg" },
+        { "id": 102, "name": "Pancakes", "description": "Fluffy pancakes with maple syrup and butter", "price": 7.99, "image": "pancakes.jpg" },
+        { "id": 103, "name": "Breakfast Burrito", "description": "Scrambled eggs, cheese, and bacon in a tortilla", "price": 8.99, "image": "breakfast_burrito.jpg" },
+        { "id": 104, "name": "Omelette", "description": "Three-egg omelette with your choice of fillings", "price": 7.49, "image": "omelette.jpg" },
+        { "id": 105, "name": "French Toast", "description": "French toast with powdered sugar and syrup", "price": 6.99, "image": "french_toast.jpg" }
+      ],
+      "lunch": [
+        { "id": 201, "name": "Caesar Salad", "description": "Romaine lettuce with Caesar dressing", "price": 9.99, "image": "caesar_salad.jpg" },
+        { "id": 202, "name": "Club Sandwich", "description": "Turkey, bacon, lettuce, and tomato", "price": 10.99, "image": "club_sandwich.jpg" },
+        { "id": 203, "name": "Grilled Chicken Wrap", "description": "Grilled chicken with lettuce and ranch", "price": 9.99, "image": "grilled_chicken_wrap.jpg" },
+        { "id": 204, "name": "Tomato Soup", "description": "Creamy tomato soup with basil", "price": 5.99, "image": "tomato_soup.jpg" },
+        { "id": 205, "name": "BLT Sandwich", "description": "Bacon, lettuce, and tomato on toasted bread", "price": 8.99, "image": "blt_sandwich.jpg" }
+      ],
+      "dinner": [
+        { "id": 301, "name": "Steak Frites", "description": "Grilled steak with French fries", "price": 19.99, "image": "steak_frites.jpg" },
+        { "id": 302, "name": "Salmon Teriyaki", "description": "Salmon with teriyaki sauce", "price": 17.99, "image": "salmon_teriyaki.jpg" },
+        { "id": 303, "name": "Vegetarian Lasagna", "description": "Lasagna with a variety of vegetables", "price": 15.99, "image": "vegetarian_lasagna.jpg" },
+        { "id": 304, "name": "Chicken Alfredo", "description": "Fettuccine with creamy Alfredo sauce and grilled chicken", "price": 16.99, "image": "chicken_alfredo.jpg" },
+        { "id": 305, "name": "Beef Stroganoff", "description": "Beef in a creamy mushroom sauce served over egg noodles", "price": 18.99, "image": "beef_stroganoff.jpg" }
+      ],
+      "desserts": [
+        { "id": 401, "name": "Chocolate Cake", "description": "Rich chocolate cake with chocolate frosting", "price": 6.99, "image": "chocolate_cake.jpg" },
+        { "id": 402, "name": "Cheesecake", "description": "Classic cheesecake with a graham cracker crust", "price": 7.99, "image": "cheesecake.jpg" },
+        { "id": 403, "name": "Fruit Tart", "description": "Tart filled with pastry cream and topped with fresh fruit", "price": 8.99, "image": "fruit_tart.jpg" },
+        { "id": 404, "name": "Brownie Sundae", "description": "Warm brownie with ice cream and hot fudge", "price": 6.49, "image": "brownie_sundae.jpg" },
+        { "id": 405, "name": "Lemon Meringue Pie", "description": "Tart lemon filling with a fluffy meringue topping", "price": 7.49, "image": "lemon_meringue_pie.jpg" }
+      ]
+    }
+  }
+}
