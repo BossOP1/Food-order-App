@@ -80,17 +80,17 @@ const OrderOnline = () => {
   return (
     <div>
       <Navbar />
-      <div className='flex'>
-        <div className='relative min-h-[100vh] flex flex-col justify-evenly items-center w-[80vw] mx-auto my-20 space-y-8'>
+      <div className='flex flex-col md:flex-row'>
+        <div className='relative min-h-[100vh] flex flex-col justify-evenly items-center w-[80vw] mx-auto md:my-20 space-y-8'>
           <div>
-            <h1 className='text-7xl font-semibold tracking-wider text-zinc-800 leading-relaxed p-10'>Menu</h1>
+            <h1 className=' text-4xl md:text-7xl font-semibold tracking-wider text-zinc-800 leading-relaxed p-10'>Menu</h1>
           </div>
-          <div className='relative h-full w-full flex justify-between space-x-7'>
+          <div className='relative h-full w-full flex flex-col justify-between md:space-x-7 space-y-5 md:space-y-0 md:flex-row'>
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => clickFilterHandler(category)}
-                className={`border px-16 py-4 rounded-2xl text-xl font-light ${
+                className={`border md:px-16 py-4 rounded-2xl text-xl font-light ${
                   selectedCategory === category ? 'bg-red-400 text-white' : 'bg-gray-200'
                 } tracking-wide`}
               >
@@ -98,13 +98,13 @@ const OrderOnline = () => {
               </button>
             ))}
           </div>
-          <div className='flex'>
+          <div className='flex flex-col md:flex-row'>
             <div className='w-full flex flex-wrap gap-7'>
               {getFilteredItems().map((item) => (
                 <Card key={item.id} item={item} buttonName="Add to Cart" onButtonClick={settingFunction} />
               ))}
             </div>
-            <div className='w-[40%]'>
+            <div className='md:w-[40%]'>
               <div className='text-4xl text-center font-bold p-6 border-b-4'>Order list</div>
               <div className='flex flex-col pt-8 space-y-5 py-10 border-b-2'>
                 {Object.entries(orderData).map(([name, { quantity, price }]) => (
