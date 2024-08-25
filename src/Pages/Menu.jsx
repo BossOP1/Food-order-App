@@ -29,24 +29,24 @@ const Menu = () => {
   };
 
   return (
-    <div>
+    <div className='box-border'>
       <Navbar />
-      <div className='relative min-h-[160vh] flex flex-col justify-evenly items-center w-[80vw] mx-auto my-20 space-y-8'>
+      <div className='relative min-h-[160vh] flex flex-col justify-evenly items-center md:w-[80vw] mx-auto my-20 space-y-8'>
         <div>
-          <h1 className='text-6xl font-semibold tracking-wider text-zinc-800 leading-relaxed p-10'>Our Popular Menu</h1>
+          <h1 className='  text-4xl md:text-6xl font-semibold tracking-wider text-zinc-800 leading-relaxed p-10'>Our Popular Menu</h1>
         </div>
-        <div className='relative h-full w-full flex justify-between space-x-7'>
+        <div className='relative h-full w-full flex-col justify-between space-y-5 md:space-y-0 md:space-x-7 md:flex-row'>
           {categories.map(category => (
             <button
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`border px-16 py-4 rounded-2xl text-xl font-light ${selectedCategory === category ? 'bg-red-400 text-white' : 'bg-gray-200'} tracking-wide`}
+              className={`border py-5 w-[100%] md:w-auto md:px-16 md:py-4 rounded-2xl text-xl font-light ${selectedCategory === category ? 'bg-red-400 text-white' : 'bg-gray-200'} tracking-wide`}
             >
               {category.charAt(0).toUpperCase() + category.slice(1)}
             </button>
           ))}
         </div>
-        <div className='w-full flex flex-wrap gap-7'>
+        <div className='w-auto flex flex-wrap items-center gap-7'>
           {getFilteredItems().map(item => (
             <Card key={item.id} item={item} buttonName="Order Now" onButtonClick={moveToOrderPage} />
           ))}

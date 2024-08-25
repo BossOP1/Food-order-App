@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-    <div className='flex mt-20 w-screen min-h-[60vh] p-10 bg-zinc-900 justify-evenly justify-items-start'>
-      <div className='flex mt-20 w-screen min-h-[60vh] p-10 bg-zinc-900 justify-evenly itpstart'>
+    <div className='flex-col mt-20 w-screen min-h-[60vh] p-10 bg-zinc-900 justify-evenly justify-items-start md:flex-row'>
+      <div className='flex flex-col mt-20 w-screen min-h-[60vh] p-10 bg-zinc-900 justify-evenly itpstart md:flex-row'>
         {/* leftsection */}
         <div className='flex flex-col space-y-5'>
        <div className='flex items-center space-x-1 text-3xl'>
@@ -59,7 +59,7 @@ const Footer = () => {
            
 
            {/* mid-2 section */}
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col md:items-center'>
         <h2 className='text-red-400 font-bold text-3xl pb-6 '>Information</h2>
 
         <p   className='text-xl text-white pb-2  text-left '><Link to='/aboutus'> About-us</Link></p> 
